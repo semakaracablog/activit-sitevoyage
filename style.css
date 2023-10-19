@@ -1,0 +1,352 @@
+body {
+background-color: white;
+font-family: "Arial", sans serif;
+padding: 0;
+margin: 0;
+}
+
+
+nav {
+margin-right: 5%;
+padding: 15px;
+
+}
+
+
+li a {
+margin: 10px 10px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  list-style: none;
+font-size: 1.5vw;
+} 
+
+
+ul {
+  list-style-type: none;
+margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  list-style: none;
+}
+
+
+.left{
+margin-left: 5%;
+text-align: left;
+float: left;
+padding: 14px 16px;
+}
+
+
+.pageaccueil{
+background-image: url("blogvoyages.jpg");
+background-size: 100vw; 
+width: 100%;
+height: 40vw; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.T1 {
+position: absolute;
+color: white;
+font-size: 25px;
+letter-spacing: 8px;
+}
+
+.T2 {
+margin-top: 70px;
+position: absolute;
+font-size: 65px;
+color: white;
+letter-spacing: 12px;
+}
+
+
+
+
+p {
+color: white;
+text-align: center;
+}
+
+h3 {
+color: white;
+}
+
+
+.container {
+  display: flex;  
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.titrecontainer{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 150px;
+position: relative;
+
+}
+.titrecontainer p {
+position: absolute;
+bottom: 0;
+font-size: 25px;
+color: black;
+}
+
+.container p {
+text-align: left;
+margin: 15px;
+padding-top: 250px;
+}
+
+.container2 {
+  display: flex;  
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+
+.titrecontainer2 {
+position: relative;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.titrecontainer2 p {
+position: absolute;
+bottom: 0;
+font-size: 25px;
+color: black;
+}
+
+
+
+.card {
+  width: 45%;
+  height: 250px;
+  margin: 10px;
+}
+
+
+
+
+.cardseville {
+  background-image:url("seville-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+
+.cardgrenade{
+  background-image:url("grenade-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+.cardporto {
+  background-image:url("porto-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+.cardcracovie {
+  background-image:url("cracovie-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+.cardbudapest {
+  background-image:url("budapest-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+.cardvenise {
+  background-image:url("venise-ct-home.jpg");
+background-size: 45vw;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+
+.container2 .card {
+  background-color: ;
+  width: 45%;
+  height: 500px;
+  margin: 15px;
+  
+}
+
+
+.card-image {
+  background-color: #3C3C3C
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+.card-image1 {
+background-image: url("venise-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.card-image2 {
+background-image: url("seville-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+
+.card-image3 {
+background-image: url("porto-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+
+.card-image4 {
+background-image: url("grenade-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+.card-image5 {
+background-image: url("cracovie-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.card-image6 {
+background-image: url("budapest-ct-home.jpg");
+background-size: 100%;
+  background-color: #686C6D;
+  height: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+
+.card p {
+text-align: left;
+float: left;
+color: Gray;
+}
+
+.card h2{
+color: #4A5C6A;
+}
+
+
+h2 {
+font-size: 1.5vw;
+padding-left: 10px;
+color: white;
+}
+
+
+footer {
+height: 100px;
+background-color: #06141B;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+footer p {
+font-size: 12px;
+padding-left: 15px;
+color: Gray;
+}
+
+footer a {
+color: Gray;
+
+}
+ 
+
+span {
+color: #d507ed; 
+
+}
+
+
+
+
+.container3 {
+height: 350px;
+width: 100%;
+margin: 45px;
+background-color: LightGray;
+  display: flex;  
+  justify-content: left; 
+  flex-wrap: wrap;
+border-radius: 25px;
+
+}
+
+
+.container3 p{
+text-align: left;
+float: left;
+padding: 25px;
+border-radius: 35px;
+color: Gray;
+}
+
+.container4 a {
+padding: 8px 10px;
+margin: 25px;
+color: white;
+text-decoration: none;
+background-color: #d507ed; 
+border-radius: 35px
+}
